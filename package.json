@@ -1,0 +1,19 @@
+{
+  "name": "node-2025",
+  "version": "1.0.0",
+  "description": "kapil",
+  "keywords": [
+    "kapil"
+  ],
+  "license": "ISC",
+  "author": "kapil",
+  "type": "commonjs",
+  "main": "7-request.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "nodemon": "^3.1.14"
+  }
+}

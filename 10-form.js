@@ -3,8 +3,7 @@
 //   resp.writeHead(200,{"content-type": "text/html"})
 //   if(req.url=="/"){
 // resp.write(`<form action="/submit" method="post"><input type="text" name="name" placeholder="enter name" ></input><input type="text" name="email" placeholder="enter email" ></input><button>Submit</button></form>`);
-//   }
-// // resp.write(`<form action="/submit" method="post"><input type="text" name="name" placeholder="enter name" ></input><input type="text" name="email" placeholder="enter email" ></input><button>Submit</button></form>`);
+//   }l" ></input><button>Submit</button></form>`);
 // else{
 //   resp.write('<h1>data submitted</h1>');
 // }
@@ -28,6 +27,7 @@ resp.writeHead(200,{"content-type": "text/html"})
  if(req.url=="/") {
   resp.write(data);
   }
+// // resp.write(`<form action="/submit" method="post"><input type="text" name="name" placeholder="enter name" ></input><input type="text" name="email" placeholder="enter emai
   else if(req.url=="/submit"){
     resp.write('<h1>Data Submitted</h1>')
   }

@@ -1,3 +1,5 @@
+// http mai tesp.write use krte hai error k liye 500 data k liye 200 
+
 const http=require('http');
 const fs=require('fs');
 http.createServer((req,resp)=>{

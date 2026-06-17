@@ -1,3 +1,13 @@
+// req
+// │
+// ├── req.url
+// ├── req.method
+// ├── req.body = client jo data bhejta hai 
+// ├── req.params
+// ├── req.query
+// ├── req.headers
+// └── req.cookies
+
 const http=require('http');
 http.createServer((req,resp)=>{
 // console.log(req.url);
